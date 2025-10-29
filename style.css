@@ -2,39 +2,134 @@
     --primary-color: #EE2A1D;
     --secundary-color: #0E1D47; 
 }
+
 main{
     display: flex;
     justify-content: center;
 }
+
 body{
     font-family: "Quattrocento", serif;
     font-weight: 400;
+    height: 100vh;
     background-color: var(--secundary-color);
 }
+
 .Esquerda{
     font-size: 20px;
     padding-top: 4%;
     padding-left: 3%;
     height: 100vh;
     width: 32vw;
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
+}
+.Spidercima{
+    padding-top: 20px;
 }
 h1{
     padding-left: 10px;
     padding-top: 30%;
-    font-size: 90px;
+    font-size: 110px;
+    background: linear-gradient(to right, #0E1D47 10%, #EE2A1D 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 p{
-    
-    width: 60%;
+    font-size: 23px;
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 800;
+    color: #999999;
 }
 
 .Direita-cima{
+    padding-top: 50px;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
     height: 50vh;
-    background-color: gray;
+    width: 25vw;
+    background-color: rgb(0, 0, 0);
 }
+.Steal-e-seta{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 60%;
+}
+.Steal{
+    width: 50%;
+    color: #767676;
+}
+.Seta{
+    width:180px;
+}
+.Spider{
+    display: flex;
+    font-size: 40px;
+    width: 70%;
+    color: aliceblue;
+    background: linear-gradient(to right, white 1%, #EE2A1D 97%, white 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Morales{
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
 .Direita-baixo{
     height: 50vh;
     width: 25vw;
-    background-color: aqua;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -1;
+}
+
+.Nike{
+    display: flex;
+    justify-content: center;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 70px;
+    z-index: 1;
+}
+
+.Air{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.Pequeno{
+    padding-top: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.milesp{
+    padding-left: 2%;
+}
+
+.Descricao{
+    padding-top: 15%;
+    width: 80%;
+}
+
+.Jordan{
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+.Buy{
+    padding-top: 65%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    color: #767676;
 }
