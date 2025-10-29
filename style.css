@@ -1,0 +1,40 @@
+:root{
+    --primary-color: #EE2A1D;
+    --secundary-color: #0E1D47; 
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+body{
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    background-color: var(--secundary-color);
+}
+.Esquerda{
+    font-size: 20px;
+    padding-top: 4%;
+    padding-left: 3%;
+    height: 100vh;
+    width: 32vw;
+    background-color: bisque;
+}
+h1{
+    padding-left: 10px;
+    padding-top: 30%;
+    font-size: 90px;
+}
+p{
+    
+    width: 60%;
+}
+
+.Direita-cima{
+    height: 50vh;
+    background-color: gray;
+}
+.Direita-baixo{
+    height: 50vh;
+    width: 25vw;
+    background-color: aqua;
+}
